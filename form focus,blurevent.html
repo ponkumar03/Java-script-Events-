@@ -1,0 +1,25 @@
+<html>
+    <head>Focus event</head>
+    <body>
+    <h2>Enter somthing here</h2>
+    <input type="text" onfocus="Focusevent()" id="input1"/>
+        <script>
+            function Focusevent(){
+                document.getElementById("input1").style.background="green";
+            }
+        </script>
+    </body>
+</html>
+<hr>
+<html>
+    <head>Blur event</head>
+    <body>
+    <h2>Enter somthing here</h2>
+    <input type="text" onblur="blurevent()" id="input2"/>
+        <script>
+            function blurevent(){
+                document.getElementById("input2").style.background="yellow";
+            }
+        </script>
+    </body>
+</html>
